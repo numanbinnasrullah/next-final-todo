@@ -1,0 +1,95 @@
+.todoMainContainer{
+    /* border: 2px solid; */
+    margin: 30px;
+}
+.mainListContainer{
+    width: 70%;
+    height: auto;
+    border: 1px solid;
+    margin: 10px 0px;
+    padding: 10px 20px;
+    background-color: lavenderblush;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+.editBtn{
+    margin-right: 10px;
+    background-color: aqua;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+.deleteBtn{
+    margin-right: 10px;
+    background-color: gold;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+.doneTaskBtn{
+    margin-right: 10px;
+    background-color:bisque;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+.spanId{
+    border-radius: 50%;
+    border: 2px solid sandybrown;
+    padding: 2px;
+    margin-right: 10px;
+    background-color: black;
+    color: #fff;
+}
+.Inputs{
+    width: 70%;
+    height: 40px;
+    margin: 10px 0px;
+    border-radius: 5px;
+}
+.InputBtn{
+    width: 70%;
+    padding: 7px 30px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.editInputs{
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 20px;
+    
+}
+.editInputdisable{
+    border-radius: 20px;
+}
+.todoMainContainer{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.horiZontalLine{
+    width:70%;
+    border: 2px solid rgb(169, 3, 105);
+    /* height: 10px; */
+}
+
+
+@media screen and (max-width: 992px) {
+    .todoMainContainer{
+        width: 100%;
+    }
+    .Inputs{
+        width: 100%;
+    }
+    .InputBtn{
+        width: 100%;
+    }
+    .mainListContainer{
+        width: 100%;
+        flex-direction: column;
+    }
+    .horiZontalLine{
+        width:100%;
+    }
+  }
